@@ -27,3 +27,5 @@ end
 
 ruby '2.0.0'
 #ruby-gemset=market_place_api
+
+gem 'devise'
