@@ -19,5 +19,11 @@ group :development, :test do
   gem 'spring'
 end
 
+group :test do
+  gem 'rspec-rails', '~> 2.14'
+  gem 'factory_girl_rails'
+  gem 'ffaker'
+end
+
 ruby '2.0.0'
 #ruby-gemset=market_place_api
